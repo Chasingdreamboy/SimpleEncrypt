@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleEncrypt_Example' do
+  pod 'SimpleEncrypt', :path => '../'
+
+  target 'SimpleEncrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
