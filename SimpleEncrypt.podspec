@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleEncrypt'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of SimpleEncrypt.'
 
 
@@ -19,12 +19,12 @@ An easy method to encrypt.
   s.homepage         = 'https://github.com/acct<blob>=<NULL>/SimpleEncrypt'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=<NULL>' => 'wangerdong@treefinance.com.cn' }
-  s.source           = { :git => 'https://github.com/acct<blob>=<NULL>/SimpleEncrypt.git', :tag => s.version.to_s }
+  s.author           = { 'EriceWang' => 'wangerdong@treefinance.com.cn' }
+  s.source           = { :git => 'https://github.com/Chasingdreamboy/SimpleEncrypt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'SimpleEncrypt/GTMBase64/*','SimpleEncrypt/RSA/*'
-   s.public_header_files = 'Pod/GTMBase64/*.h','SimpleEncrypt/RSA/*.h'
+   s.public_header_files = 'SimpleEncrypt/GTMBase64/*.h','SimpleEncrypt/RSA/*.h'
    s.frameworks = 'UIKit','Security'
 end
