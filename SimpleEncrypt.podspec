@@ -8,17 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleEncrypt'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of SimpleEncrypt.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An easy method to encrypt.
                        DESC
 
   s.homepage         = 'https://github.com/acct<blob>=<NULL>/SimpleEncrypt'
@@ -29,14 +24,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SimpleEncrypt/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SimpleEncrypt' => ['SimpleEncrypt/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'SimpleEncrypt/GTMBase64/*','SimpleEncrypt/RSA/*'
+   s.public_header_files = 'Pod/GTMBase64/*.h','SimpleEncrypt/RSA/*.h'
+   s.frameworks = 'UIKit','Security'
 end

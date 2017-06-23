@@ -1,0 +1,6 @@
+framework module Pods_SimpleEncrypt_Tests {
+  umbrella header "Pods-SimpleEncrypt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

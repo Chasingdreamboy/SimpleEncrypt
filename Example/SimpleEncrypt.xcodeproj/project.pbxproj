@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2ED2F27DF5653880988B228C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2ED2F27DF5653880988B228C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		485137C7F5B5369946B65B95 /* Pods-SimpleEncrypt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleEncrypt_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleEncrypt_Tests/Pods-SimpleEncrypt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5146FB2C865E74CDF80ADCA4 /* SimpleEncrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleEncrypt.podspec; path = ../SimpleEncrypt.podspec; sourceTree = "<group>"; };
+		5146FB2C865E74CDF80ADCA4 /* SimpleEncrypt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleEncrypt.podspec; path = ../SimpleEncrypt.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SimpleEncrypt_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEncrypt_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +59,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		706EC450BAA9A28E5FC038BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		706EC450BAA9A28E5FC038BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B36D044AFB3A7100373D1E7 /* Pods-SimpleEncrypt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleEncrypt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleEncrypt_Example/Pods-SimpleEncrypt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "acct<blob>=<NULL>";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RYYD45U27H;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = E8E6A5B5B5F2B6D52532998C /* Pods-SimpleEncrypt_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYYD45U27H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleEncrypt/SimpleEncrypt-Prefix.pch";
 				INFOPLIST_FILE = "SimpleEncrypt/SimpleEncrypt-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 7B36D044AFB3A7100373D1E7 /* Pods-SimpleEncrypt_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYYD45U27H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleEncrypt/SimpleEncrypt-Prefix.pch";
 				INFOPLIST_FILE = "SimpleEncrypt/SimpleEncrypt-Info.plist";

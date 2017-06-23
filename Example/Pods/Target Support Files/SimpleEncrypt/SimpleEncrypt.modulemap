@@ -1,0 +1,6 @@
+framework module SimpleEncrypt {
+  umbrella header "SimpleEncrypt-umbrella.h"
+
+  export *
+  module * { export * }
+}

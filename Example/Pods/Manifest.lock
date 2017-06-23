@@ -1,0 +1,16 @@
+PODS:
+  - SimpleEncrypt (0.0.1)
+
+DEPENDENCIES:
+  - SimpleEncrypt (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleEncrypt:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleEncrypt: 72415da5d6b5ce5cc6d27570be9d2c42af2f8ab1
+
+PODFILE CHECKSUM: fa6a2a012cfce33bc50059078f6ded3c7896cb41
+
+COCOAPODS: 1.2.1
