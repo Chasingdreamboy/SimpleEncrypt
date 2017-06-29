@@ -22,7 +22,7 @@ An easy method to encrypt.
   s.author           = { 'EriceWang' => 'wangerdong@treefinance.com.cn' }
   s.source           = { :git => 'https://github.com/Chasingdreamboy/SimpleEncrypt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+s.xcconfig = {'GENERATE_DEBUG_SYMBOLS' => 'NO'}
   s.ios.deployment_target = '8.0'
   s.source_files = 'SimpleEncrypt/GTMBase64/*','SimpleEncrypt/RSA/*'
    s.public_header_files = 'SimpleEncrypt/GTMBase64/*.h','SimpleEncrypt/RSA/*.h'
